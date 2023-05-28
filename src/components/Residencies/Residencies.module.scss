@@ -1,0 +1,37 @@
+.residencies__head {
+  margin-bottom: 2rem;
+}
+
+.residency {
+  gap: 0.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in;
+}
+
+.residency:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(136, 160, 255, 0.46) 217.91%);
+}
+
+.residency-img {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.residency-price {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.residency-name {
+  font-size: 1.5rem;
+}
+
+.residency-detail {
+  font-size: 0.7rem;
+  width: 15rem;
+}
