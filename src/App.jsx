@@ -1,8 +1,19 @@
+import General from "./components/General/General";
+import Header from "./components/Header/header";
+import "./App.css";
+import Companies from "./components/Companies/Companies";
 
 function App() {
-  return (
-    <span>subscribe Zainkeepscode</span>
-  );
+    return (
+        <div className="app">
+            <div>
+                <div className="white-gradient"></div>
+                <Header />
+                <General />
+            </div>
+            <Companies />
+        </div>
+    );
 }
 
 export default App;
