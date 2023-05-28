@@ -1,5 +1,5 @@
 import General from "./components/General/General";
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 import "./App.css";
 import Companies from "./components/Companies/Companies";
 
