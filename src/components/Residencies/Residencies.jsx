@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import styles from "./Residencies.module.scss";
 import classname from "classnames/bind";
-import test from "../../assets/images/r1.png";
 
 import data from "../../utils/slider.json";
+import {sliderSettings} from "../../utils/common"
 
 const cx = classname.bind(styles);
 
@@ -24,7 +24,8 @@ const Residencies = () => {
                   <h1 className={cx('primary-text')}>Popular Residencies</h1>
               </div>
 
-              <Swiper>
+              <Swiper {...sliderSettings} style={{overflow: "visible"}}>
+                <SliderButtons />
                   {
                     data.map((card, index) => (
                       <SwiperSlide key={index}>
@@ -47,3 +48,13 @@ const Residencies = () => {
 };
 
 export default Residencies;
+
+const SliderButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className={cx('slider-btn', 'flex-center')}>
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    </div>
+  )
+}
