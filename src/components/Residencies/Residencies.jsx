@@ -4,8 +4,9 @@ import "swiper/css";
 import styles from "./Residencies.module.scss";
 import classname from "classnames/bind";
 
-import data from "../../utils/slider.json";
-import {sliderSettings} from "../../utils/common"
+import data from "../../utils/slider.js";
+import {sliderSettings} from "../../utils/common";
+
 
 const cx = classname.bind(styles);
 

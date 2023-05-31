@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./Companies.module.scss";
 import classname from "classnames/bind";
 
-import prologis from "../../assets/images/prologis.png";
-import realty from "../../assets/images/realty.png";
-import equinix from "../../assets/images/equinix.png";
-import tower from "../../assets/images/tower.png";
+import prologis from "../../assets/images/companies/prologis.png";
+import realty from "../../assets/images/companies/realty.png";
+import equinix from "../../assets/images/companies/equinix.png";
+import tower from "../../assets/images/companies/tower.png";
 
 const cx = classname.bind(styles);
 
