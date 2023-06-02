@@ -1,6 +1,6 @@
 import r1 from "../assets/images/residencies/r1.png";
 import r2 from "../assets/images/residencies/r2.png";
-import r3 from "../assets/images/residencies/r2.png";
+import r3 from "../assets/images/residencies/r3.png";
 
 
 const data = [
