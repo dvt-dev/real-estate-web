@@ -91,3 +91,38 @@
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .general-container {
+    margin-top: 2rem;
+  }
+
+  .general__left-title>h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .genral__left-search-bar {
+    flex-wrap: nowrap;
+  }
+
+  .general__left-stats {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .stat__item-number {
+    font-size: 1.5rem;
+  }
+
+  .stat__item-name {
+    font-size: 0.8rem;
+  }
+
+  .general__img-container {
+    width: 95%;
+    height: 25rem;
+  }
+
+
+}
+

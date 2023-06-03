@@ -6,3 +6,9 @@
 .companies-img {
   width: 9rem;
 }
+
+@media (max-width: 768px) {
+  .companies-container {
+    flex-direction: column;
+  }
+}
