@@ -19,3 +19,14 @@
 .footer__menu-item-link {
   font-weight: 500;
 }
+
+@media (max-width: 768px) { 
+  .footer-container {
+    justify-content: center;
+  }
+
+  .footer-container>div {
+    align-items: center;
+    text-align: center;
+  }
+}

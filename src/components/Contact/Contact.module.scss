@@ -84,3 +84,31 @@
   height: 100%;
 }
 
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact__right {
+    justify-content: center;
+  }
+
+  .contact__modes, .contact__mode-item {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
+
+ 
+@media (max-width: 768px) {
+  .contact__img-container {
+      width: 95%;
+      height: 25rem;
+    }
+}
+

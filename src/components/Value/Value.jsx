@@ -28,7 +28,7 @@ const Value = () => {
                 )}
             >
                 {/* Left side */}
-                <div className={cx("value__left")}>
+                <div className={cx("value__left", "flex-center")}>
                     <div className={cx("value__img-container")}>
                         <img
                             src={valueImg}

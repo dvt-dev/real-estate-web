@@ -4,6 +4,7 @@ import classname from "classnames/bind";
 import heroImg from "../../assets/images/hero-image.png";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 const cx = classname.bind(styles);
 
@@ -22,13 +23,28 @@ const General = () => {
                 <div className={cx("general__left", "flex-col-start")}>
                     <div className={cx("general__left-title")}>
                         <span className={cx("orange-circle")} />
-                        <h1>
+                        <motion.h1
+                            initial={{ y: "2rem", opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{
+                                duration: 2,
+                                type: "sharing",
+                            }}
+                        >
                             Discover <br />
                             Most Suitable <br />
                             Property
-                        </h1>
+                        </motion.h1>
                     </div>
-                    <div className={cx("general__left-des", "secondary-text")}>
+                    <motion.div
+                        className={cx("general__left-des", "secondary-text")}
+                        initial={{ y: "2rem", opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{
+                            duration: 2,
+                            type: "sharing",
+                        }}
+                    >
                         <p>
                             Find a variety of properties that suit you very
                             easilty
@@ -37,7 +53,7 @@ const General = () => {
                             Forget all difficulties in finding a residence for
                             you
                         </p>
-                    </div>
+                    </motion.div>
                     <div
                         className={cx("genral__left-search-bar", "flex-center")}
                     >
@@ -93,9 +109,17 @@ const General = () => {
 
                 {/* Right side */}
                 <div className={cx("general__right", "flex-center")}>
-                    <div className={cx("general__img-container")}>
+                    <motion.div
+                        className={cx("general__img-container")}
+                        initial={{ x: "7rem", opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{
+                            duration: 2,
+                            type: "sharing",
+                        }}
+                    >
                         <img src={heroImg} alt="" className={cx("hero-img")} />
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>
