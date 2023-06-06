@@ -71,3 +71,13 @@
   opacity: 0.7;
 }
 
+@media (max-width: 768px) {
+  .residencies__head {
+    align-items: center;
+  }
+
+  .slider-btn {
+    position: initial;
+  }
+}
+

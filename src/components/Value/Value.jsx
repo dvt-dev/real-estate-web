@@ -60,7 +60,7 @@ const Value = () => {
                         className={cx("accordion")}
                     >
                         {data.map((item, index) => {
-                            const [classname, setClassName] = useState(null);
+                            const [classname, setClassName] = useState();
                             return (
                                 <AccordionItem
                                     className={cx(
