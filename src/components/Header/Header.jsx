@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "./Header.module.scss";
 import classname from "classnames/bind";
 import logo from "../../assets/images/logo.png";
-
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler2 from "react-outside-click-handler";
 
@@ -37,22 +36,34 @@ const Header = () => {
                             style={getMenuStyles(menuOpened)}
                         >
                             <li className={cx("navbar__item")}>
-                                <a href="" className={cx("navbar__item-link")}>
+                                <a
+                                    href="#residencies"
+                                    className={cx("navbar__item-link")}
+                                >
                                     Residencies
                                 </a>
                             </li>
                             <li className={cx("navbar__item")}>
-                                <a href="" className={cx("navbar__item-link")}>
+                                <a
+                                    href="#value"
+                                    className={cx("navbar__item-link")}
+                                >
                                     Our Value
                                 </a>
                             </li>
                             <li className={cx("navbar__item")}>
-                                <a href="" className={cx("navbar__item-link")}>
+                                <a
+                                    href="#contact"
+                                    className={cx("navbar__item-link")}
+                                >
                                     Contact Us
                                 </a>
                             </li>
                             <li className={cx("navbar__item")}>
-                                <a href="" className={cx("navbar__item-link")}>
+                                <a
+                                    href="#getStarted"
+                                    className={cx("navbar__item-link")}
+                                >
                                     Get Started
                                 </a>
                             </li>

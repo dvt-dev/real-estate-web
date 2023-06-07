@@ -14,7 +14,7 @@ const cx = classname.bind(styles);
 
 const Contact = () => {
     return (
-        <section className={cx("contact-wrapper")}>
+        <section className={cx("contact-wrapper")} id="contact">
             <div
                 className={cx(
                     "contact-container",

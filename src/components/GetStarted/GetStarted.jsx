@@ -6,7 +6,7 @@ const cx = classname.bind(styles);
 
 const GetStarted = () => {
     return (
-        <section className={cx("getStarted-wrapper")}>
+        <section className={cx("getStarted-wrapper")} id="getStarted">
             <div
                 className={cx(
                     "getStarted-container",
