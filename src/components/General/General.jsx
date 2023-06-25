@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./General.module.scss";
 import classname from "classnames/bind";
+
 import heroImg from "../../assets/images/hero-image.png";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
